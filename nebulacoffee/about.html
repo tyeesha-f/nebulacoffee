@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Nebula Coffee</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;600;700;800;900&family=Rubik+Mono+One&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html" aria-label="Nebula Coffee Home">
+        <img
+          src="images/nebula-logo.svg"
+          alt="Nebula Coffee logo"
+          onerror="this.onerror=null;this.src='images/nebula-logo.png';"
+        />
+        <span>Nebula Coffee</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html" aria-current="page">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-card" aria-label="Barista preparing a drink at Nebula Coffee">
+          <img
+            src="images/barista-portrait.jpg"
+            class="about-photo img-fluid"
+            alt="Barista preparing a drink at Nebula Coffee"
+          />
+        </div>
+
+        <div class="hero-copy about-text">
+          <h1 class="about-title">Welcome to Nebula Coffee</h1>
+
+          <div class="about-copy">
+            <p>
+              Welcome to Nebula Coffee, where coffee is more than just a drink; it's an experience that takes you on a journey through the cosmos of flavor.
+            </p>
+
+            <p>
+              Our story began with a simple idea: to create a coffee brand that not only satisfies your caffeine cravings but also ignites your taste buds with a burst of celestial flavors.
+              We're a passionate team of coffee enthusiasts who believe that each cup of coffee should be a moment of pure joy, a mini vacation from the ordinary.
+            </p>
+
+            <p>
+              At Nebula Coffee, we carefully source the finest beans from around the world, handpicking each one for its unique flavor profile.
+              Our roasters then work their magic, coaxing out the beans' hidden flavors to create a symphony of tastes that dance on your palate.
+              Whether you prefer a rich, dark roast or a smooth, medium blend, we've got you covered.
+            </p>
+
+            <p>
+              But we're more than just coffee. We're a community of coffee lovers who come together to share our passion.
+              From brewing tips to coffee art tutorials, our blog is a treasure trove of coffee knowledge.
+            </p>
+
+            <p class="mb-0">
+              So, whether you're a seasoned coffee connoisseur or just dipping your toes into the world of java, Nebula Coffee is here to elevate your coffee experience.
+              Join us on this cosmic adventure, one cup at a time.
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="menu.html">Explore Menu</a>
+            <a class="btn btn-secondary" href="contact.html">Plan your visit</a>
+          </div>
+
+          <div class="divider" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head">
+          <h2>Inside Nebula</h2>
+          <p>A quick look at the space, the vibe, and the details.</p>
+        </div>
+
+        <div id="insideNebulaCarousel" class="carousel slide" data-bs-ride="carousel" aria-label="Inside Nebula carousel">
+
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#insideNebulaCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#insideNebulaCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#insideNebulaCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner rounded-4 overflow-hidden border" style="border-color: rgba(48,30,103,.18);">
+            <div class="carousel-item active">
+              <img
+                src="images/nebula-mural-wall.png"
+                class="d-block w-100 img-fluid"
+                alt="Nebula mural wall inside the cafe"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="mb-1">Cosmic mural moment</h5>
+                <p class="mb-0">Space visuals that match the brand.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/coffee-shop-art-wall.png"
+                class="d-block w-100 img-fluid"
+                alt="Coffee shop art wall with framed artwork"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="mb-1">Gallery-style details</h5>
+                <p class="mb-0">Art and atmosphere that make the space feel curated.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/coffee-shop-interior.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Coffee shop interior with espresso bar and warm lighting"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="mb-1">Warm + modern interior</h5>
+                <p class="mb-0">A clean layout that keeps the focus on coffee and community.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#insideNebulaCarousel" data-bs-slide="prev" aria-label="Previous slide">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#insideNebulaCarousel" data-bs-slide="next" aria-label="Next slide">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Hours</h4>
+        <div>Tuesday-Thursday: 6am-7pm</div>
+        <div>Friday-Saturday: 7am-7pm</div>
+      </div>
+
+      <div>
+        <h4>Social</h4>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Pinterest">Pinterest</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-copy">© 2026 Nebula Coffee Company.</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
